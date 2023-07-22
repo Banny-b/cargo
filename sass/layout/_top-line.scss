@@ -1,0 +1,44 @@
+.top-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--gold-color);
+    padding: 16px 0;
+}
+
+.top-line__lang {
+    display: flex;
+    padding-left: 405px;
+}
+
+.top-line__lang-lett:not(:last-child) {
+    margin-right: 10px;
+}
+
+.top-line__lang-btn {
+    font-family: var(--accent-font);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--white-color);
+    background: transparent;
+    border: none;
+    opacity: 0.5;
+}
+
+.top-line__phone {
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--white-color);
+}
+
+.top-line__email {
+    display: inline-block;
+    padding-right: 405px;
+    @extend .top-line__phone;
+}

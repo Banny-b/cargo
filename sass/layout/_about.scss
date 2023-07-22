@@ -1,0 +1,139 @@
+.about {
+    width: 1920px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: var(--dark-color);
+}
+
+// UP SECTION
+.all-services {
+    width: 1110px;
+    height: 504px;
+    margin-right: auto;
+    margin-bottom: 120px;
+    margin-left: auto;
+}
+
+.all-services__line {
+    display: inline-block;
+    width: 90px;
+    height: 6px;
+    background: var(--gold-color);
+    margin-bottom: 40px;
+}
+
+.all-services__title {
+    color: var(--white-color);
+    margin-bottom: 60px;
+}
+
+.all-services__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.all-services__item {
+    background: var(--services-bg);
+    border: 1px solid var(--dark-color);
+}
+
+.all-services__item-transf {
+    padding: 55px 42px 35px 42px;
+}
+
+.all-services__item-img {
+    display: block;
+    fill: var(--white-color);
+    margin-right: auto;
+    margin-bottom: 43px;
+    margin-left: auto;
+}
+
+.all-services__item-text {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+// DOWN SECTION
+.about-company {
+    display: flex;
+    width: 1110px;
+    height: 482px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+// Left subsection
+.about-company__sect-l {
+    position: relative;
+    width: 355px;
+    padding-top: 80px;
+}
+
+.about-company__line {
+    display: inline-block;
+    width: 90px;
+    height: 6px;
+    background: var(--gold-color);
+    margin-bottom: 40px;
+}
+
+.about-company__title {
+    color: var(--white-color);
+    margin-bottom: 30px;
+}
+
+.about-company__text {
+    width: 445px;
+    color: var(--white-color);
+}
+
+// Middle subsection
+.about-company__sect-m {
+    width: 410px;
+    background: var(--services-bg);
+}
+
+// Right subsection
+.about-company__list-r {
+    position: absolute;
+    left: 922px;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 1fr);
+    padding-top: 80px;
+}
+
+.about-company__item-r {
+    width: 200px;
+    height: 160px;
+    background: var(--white-color);
+    border: 1px solid var(--dark-color);
+}
+
+/* Position down div */
+.about-company__item-r:nth-of-type(4) {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.about-company__item-r:nth-of-type(5) {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.about-company__title-r {
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom: 10px;
+}
+
+.about-company__text-r {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.about-company__descr-r {
+    text-align: center;
+}

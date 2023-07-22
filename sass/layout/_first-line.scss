@@ -1,0 +1,39 @@
+.header {
+    background: var(--dark-color);
+    padding: 27px 0;
+}
+
+.header__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__info-logo {
+    margin-right: 30px;
+}
+
+.header__info-line {
+    width: 1px;
+    height: 46px;
+    background: var(--line-color);
+    margin-right: 30px;
+}
+
+.header__info-nav-link-loc {
+    color: var(--white-color);
+    margin-right: 346px;
+}
+
+.header__info-img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.header__info-nav-link {
+    color: var(--white-color);
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}

@@ -1,0 +1,108 @@
+.services {
+    display: flex;
+    width: 1920px;
+    height: 561px;
+    background: var(--dark-color);
+}
+
+// Left section
+.subsection-l {
+    width: 755px;
+    padding-top: 120px;
+    padding-bottom: 129px;
+    background: var(--services-bg);
+}
+
+.subsection-l__content {
+    position: absolute;
+    padding-left: 258px;
+}
+
+.subsection-l__line {
+    display: inline-block;
+    width: 90px;
+    height: 6px;
+    background: var(--gold-color);
+    margin-bottom: 40px;
+}
+
+.subsection-l__title {
+    font-family: var(--accent-font);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123%;
+    letter-spacing: 2px;
+    width: 445px;
+    color: var(--white-color);
+    margin-bottom: 30px;
+}
+
+.subsection-l__text {
+    font-family: var(--accent-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 158.203%;
+    color: var(--white-color);
+    margin-bottom: 50px;
+}
+
+.subsection-l__btn {
+    text-align: center;
+    font-family: var(--accent-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 158%;
+    letter-spacing: 1.6px;
+    width: 220px;
+    height: 55px;
+    color: var(--white-color);
+    background: var(--gold-color);
+    border: none;
+}
+
+.services-img {
+    position: relative;
+    top: 210px;
+    left: 170px;
+    width: 445px;
+    height: 266px;
+}
+
+// Right section
+.subsection-r {
+    width: 755px;
+    padding-top: 156px;
+    padding-bottom: 120px;
+    background: var(--services-bg);
+    margin-left: auto;
+}
+
+.subsection-r__content {
+    padding-left: 240px;
+}
+
+.subsection-r__next {
+    margin-bottom: 245px;
+}
+
+.subsection-r__text {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: var(--accent-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 158%;
+    letter-spacing: 1.6px;
+    color: var(--gold-color);
+}
+
+.subsection-r__img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 67px;
+    height: 24px;
+}
