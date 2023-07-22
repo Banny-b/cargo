@@ -61,6 +61,11 @@
     color: var(--white-color);
     background: var(--gold-color);
     border: none;
+    transition: var(--transition-function);
+
+    &:hover {
+        background: var(--btn-hover-color);
+    }
 }
 
 .services-img {

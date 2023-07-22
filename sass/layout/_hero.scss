@@ -46,4 +46,10 @@
     margin-left: auto;
     background: transparent;
     border: none;
+    opacity: 0.8;
+    transition: var(--transition-function);
+
+    &:hover {
+        opacity: 1;
+    }
 }

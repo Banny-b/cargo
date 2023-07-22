@@ -24,6 +24,11 @@
     color: var(--line-color);
     opacity: 0.8;
     margin-bottom: 10px;
+    transition: var(--transition-function);
+
+    &:hover {
+        opacity: 1;
+    }
 }
 
 .footer__contact-mail-link {
@@ -34,6 +39,11 @@
     font-weight: 400;
     line-height: normal;
     color: var(--dark-color);
+    transition: var(--transition-function);
+
+    &:hover {
+        color: var(--white-color);
+    }
 }
 
 .footer__contact-phone {
@@ -48,9 +58,14 @@
     font-weight: 400;
     line-height: normal;
     color: var(--line-color);
+    transition: var(--transition-function);
 
     &:not(:last-child) {
         margin-bottom: 10px;
+    }
+
+    &:hover {
+        color: var(--white-color);
     }
 }
 

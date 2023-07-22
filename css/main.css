@@ -88,16 +88,24 @@ address {
   background: transparent;
   border: none;
   opacity: 0.5;
+  transition: var(--transition-function);
+}
+.top-line__lang-btn:hover {
+  opacity: 1;
 }
 
 .top-line__phone, .top-line__email {
   display: inline-block;
-  font-family: Roboto;
+  font-family: var(--accent-font);
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   color: var(--white-color);
+  transition: var(--transition-function);
+}
+.top-line__phone:hover, .top-line__email:hover {
+  opacity: 0.5;
 }
 
 .top-line__email {
@@ -128,8 +136,18 @@ address {
 }
 
 .header__info-nav-link-loc {
+  font-family: var(--accent-font);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.7px;
   color: var(--white-color);
   margin-right: 346px;
+  transition: var(--transition-function);
+}
+.header__info-nav-link-loc:hover {
+  color: var(--link-hover-color);
 }
 
 .header__info-img {
@@ -138,10 +156,20 @@ address {
 }
 
 .header__info-nav-link {
+  font-family: var(--accent-font);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.7px;
   color: var(--white-color);
+  transition: var(--transition-function);
 }
 .header__info-nav-link:not(:last-child) {
   margin-right: 30px;
+}
+.header__info-nav-link:hover {
+  color: var(--link-hover-color);
 }
 
 .hero {
@@ -191,6 +219,11 @@ address {
   margin-left: auto;
   background: transparent;
   border: none;
+  opacity: 0.8;
+  transition: var(--transition-function);
+}
+.hero__button:hover {
+  opacity: 1;
 }
 
 .services {
@@ -255,6 +288,10 @@ address {
   color: var(--white-color);
   background: var(--gold-color);
   border: none;
+  transition: var(--transition-function);
+}
+.subsection-l__btn:hover {
+  background: var(--btn-hover-color);
 }
 
 .services-img {
@@ -324,6 +361,12 @@ address {
 }
 
 .all-services__title {
+  font-family: var(--accent-font);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 123%;
+  letter-spacing: 2px;
   color: var(--white-color);
   margin-bottom: 60px;
 }
@@ -336,6 +379,7 @@ address {
 .all-services__item {
   background: var(--services-bg);
   border: 1px solid var(--dark-color);
+  transition: var(--transition-function);
 }
 
 .all-services__item-transf {
@@ -350,7 +394,25 @@ address {
   margin-left: auto;
 }
 
+.all-services__item:hover {
+  background-color: var(--gold-color);
+}
+
+.all-services__item:hover .all-services__item-img {
+  fill: var(--dark-color);
+  background-color: var(--white-color);
+  border-radius: 50%;
+  padding: 6px 6px;
+}
+
 .all-services__item-text {
+  text-align: center;
+  font-family: var(--accent-font);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 123%;
+  letter-spacing: 0.9px;
   text-align: center;
   text-transform: uppercase;
   color: var(--white-color);
@@ -379,11 +441,22 @@ address {
 }
 
 .about-company__title {
+  font-family: var(--accent-font);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 123%;
+  letter-spacing: 2px;
   color: var(--white-color);
   margin-bottom: 30px;
 }
 
 .about-company__text {
+  font-family: var(--accent-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146%;
   width: 445px;
   color: var(--white-color);
 }
@@ -421,18 +494,38 @@ address {
 }
 
 .about-company__title-r {
+  font-family: var(--accent-font);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.2px;
   text-align: center;
   margin-top: 23px;
+  color: var(--dark-color);
   margin-bottom: 10px;
 }
 
 .about-company__text-r {
   text-align: center;
-  margin-bottom: 15px;
+  font-family: var(--accent-font);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  color: var(--dark-color);
+  margin-bottom: 7px;
 }
 
 .about-company__descr-r {
   text-align: center;
+  font-family: var(--accent-font);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--dark-color);
 }
 
 .map {
@@ -468,6 +561,10 @@ address {
   color: var(--line-color);
   opacity: 0.8;
   margin-bottom: 10px;
+  transition: var(--transition-function);
+}
+.footer__contact-adress-link:hover {
+  opacity: 1;
 }
 
 .footer__contact-mail-link {
@@ -478,6 +575,10 @@ address {
   font-weight: 400;
   line-height: normal;
   color: var(--dark-color);
+  transition: var(--transition-function);
+}
+.footer__contact-mail-link:hover {
+  color: var(--white-color);
 }
 
 .footer__contact-phone {
@@ -492,9 +593,13 @@ address {
   font-weight: 400;
   line-height: normal;
   color: var(--line-color);
+  transition: var(--transition-function);
 }
 .footer__contact-phone-link:not(:last-child) {
   margin-bottom: 10px;
+}
+.footer__contact-phone-link:hover {
+  color: var(--white-color);
 }
 
 .footer__develop {

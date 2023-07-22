@@ -25,16 +25,26 @@
     background: transparent;
     border: none;
     opacity: 0.5;
+    transition: var(--transition-function);
+
+    &:hover {
+        opacity: 1;
+    }
 }
 
 .top-line__phone {
     display: inline-block;
-    font-family: Roboto;
+    font-family: var(--accent-font);
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     color: var(--white-color);
+    transition: var(--transition-function);
+
+    &:hover {
+        opacity: 0.5;
+    }
 }
 
 .top-line__email {

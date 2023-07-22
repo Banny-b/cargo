@@ -21,8 +21,19 @@
 }
 
 .header__info-nav-link-loc {
+    font-family: var(--accent-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
     color: var(--white-color);
     margin-right: 346px;
+    transition: var(--transition-function);
+
+    &:hover {
+        color: var(--link-hover-color);
+    }
 }
 
 .header__info-img {
@@ -31,9 +42,20 @@
 }
 
 .header__info-nav-link {
+    font-family: var(--accent-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
     color: var(--white-color);
+    transition: var(--transition-function);
 
     &:not(:last-child) {
         margin-right: 30px;
+    }
+
+    &:hover {
+        color: var(--link-hover-color);
     }
 }

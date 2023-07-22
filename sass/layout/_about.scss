@@ -23,6 +23,12 @@
 }
 
 .all-services__title {
+    font-family: var(--accent-font);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123%;
+    letter-spacing: 2px;
     color: var(--white-color);
     margin-bottom: 60px;
 }
@@ -35,6 +41,7 @@
 .all-services__item {
     background: var(--services-bg);
     border: 1px solid var(--dark-color);
+    transition: var(--transition-function);
 }
 
 .all-services__item-transf {
@@ -49,7 +56,25 @@
     margin-left: auto;
 }
 
+// Common styles for li and svg
+.all-services__item:hover {
+    background-color: var(--gold-color);
+}
+.all-services__item:hover .all-services__item-img {
+    fill: var(--dark-color);
+    background-color: var(--white-color);
+    border-radius: 50%;
+    padding: 6px 6px;
+}
+
 .all-services__item-text {
+    text-align: center;
+    font-family: var(--accent-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123%;
+    letter-spacing: 0.9px;
     text-align: center;
     text-transform: uppercase;
     color: var(--white-color);
@@ -80,11 +105,22 @@
 }
 
 .about-company__title {
+    font-family: var(--accent-font);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123%;
+    letter-spacing: 2px;
     color: var(--white-color);
     margin-bottom: 30px;
 }
 
 .about-company__text {
+    font-family: var(--accent-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146%;
     width: 445px;
     color: var(--white-color);
 }
@@ -124,16 +160,36 @@
 }
 
 .about-company__title-r {
+    font-family: var(--accent-font);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.2px;
     text-align: center;
     margin-top: 23px;
+    color: var(--dark-color);
     margin-bottom: 10px;
 }
 
 .about-company__text-r {
     text-align: center;
-    margin-bottom: 15px;
+    font-family: var(--accent-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    color: var(--dark-color);
+    margin-bottom: 7px;
 }
 
 .about-company__descr-r {
     text-align: center;
+    font-family: var(--accent-font);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--dark-color);
 }
