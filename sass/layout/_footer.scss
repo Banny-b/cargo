@@ -5,6 +5,15 @@
     background: var(--gold-color);
 }
 
+.footer__logo-link {
+    scroll-behavior: smooth;
+    transition: var(--transition-function);
+
+    &:hover {
+        transform: scale(1.06);
+    }
+}
+
 .footer__logo {
     margin-right: 90px;
     padding-left: 405px;
